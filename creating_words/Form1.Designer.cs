@@ -105,10 +105,10 @@
             // Easy_button
             // 
             this.Easy_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Easy_button.ForeColor = System.Drawing.Color.Blue;
-            this.Easy_button.Location = new System.Drawing.Point(185, 205);
+            this.Easy_button.ForeColor = System.Drawing.Color.Gold;
+            this.Easy_button.Location = new System.Drawing.Point(170, 205);
             this.Easy_button.Name = "Easy_button";
-            this.Easy_button.Size = new System.Drawing.Size(75, 42);
+            this.Easy_button.Size = new System.Drawing.Size(106, 42);
             this.Easy_button.TabIndex = 5;
             this.Easy_button.Text = "Easy";
             this.Easy_button.UseVisualStyleBackColor = false;
@@ -117,7 +117,7 @@
             // Medium_button
             // 
             this.Medium_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Medium_button.ForeColor = System.Drawing.Color.Blue;
+            this.Medium_button.ForeColor = System.Drawing.Color.Gold;
             this.Medium_button.Location = new System.Drawing.Point(308, 205);
             this.Medium_button.Name = "Medium_button";
             this.Medium_button.Size = new System.Drawing.Size(106, 42);
@@ -128,11 +128,11 @@
             // 
             // Hard_button
             // 
-            this.Hard_button.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Hard_button.ForeColor = System.Drawing.Color.Blue;
+            this.Hard_button.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Hard_button.ForeColor = System.Drawing.Color.Gold;
             this.Hard_button.Location = new System.Drawing.Point(459, 205);
             this.Hard_button.Name = "Hard_button";
-            this.Hard_button.Size = new System.Drawing.Size(75, 42);
+            this.Hard_button.Size = new System.Drawing.Size(106, 42);
             this.Hard_button.TabIndex = 8;
             this.Hard_button.Text = "Hard";
             this.Hard_button.UseVisualStyleBackColor = false;
