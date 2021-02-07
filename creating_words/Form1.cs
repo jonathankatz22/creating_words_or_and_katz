@@ -39,7 +39,7 @@ namespace creating_words
 
         private void setarray() // פעולה המאתחלת את מערך האותיות ומשתמשת בקוד "ASCII"
         {
-            for (int i = 0; i < Letters.Length; i++)
+            for (int i = 0; i < 26; i++)
             {
                 Letters[i] = (char)(97 + i);
             }
@@ -105,8 +105,8 @@ namespace creating_words
             {
                 listBox_player2.Items.Add(word);
             }
-            word = "";
-            textBox1.Text = "";
+            word = " ";
+            textBox1.Text = " ";
         
             
         }
