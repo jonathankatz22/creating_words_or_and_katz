@@ -133,7 +133,7 @@ namespace creating_words
             {
                 MessageBox.Show("player 1 won!");
             }
-            else if (listBox_player2.Items.Count == listBox_player2.Items.Count)
+            else if (listBox_player2.Items.Count < listBox_player2.Items.Count)
             {
                 MessageBox.Show("player 2 won!");
             }
